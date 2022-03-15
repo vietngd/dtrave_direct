@@ -1,0 +1,119 @@
+.paper {
+  padding: 24px;
+  flex-direction: column;
+}
+.header {
+  flex-direction: row;
+  width: 100%;
+}
+.picture {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  display: flex;
+  width: 60%;
+  font-size: 12px;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.li {
+  display: flex;
+  margin: 8px;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.pic {
+  display: flex;
+  width: 50%;
+  width: 48px;
+  height: 48px;
+}
+.Connect {
+  display: flex;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 8px;
+}
+.some {
+  color: red;
+}
+.Home {
+  flex-direction: column;
+  border-radius: 1.5rem;
+  min-height: calc(100vh - 88px);
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 245 244 / var(--tw-bg-opacity));
+}
+.title {
+  font-size: 24px;
+  margin-bottom: 2rem;
+  padding-top: 3.75rem;
+  padding-left: 24px;
+  margin-left: 5rem;
+}
+.left-content {
+  flex-direction: column;
+  width: 66.666667%;
+  padding-right: 0.75rem;
+  margin-left: 5rem;
+}
+.Getting {
+  display: flex;
+  border-radius: 1.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-top: 1px;
+  margin-left: 24px;
+  justify-content: space-between;
+}
+.text-big {
+  display: flex;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 100;
+}
+.dismiss {
+  margin-right: 0.5rem;
+  font-size: 14px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-right: 24px;
+}
+.Getting-started {
+  flex-direction: column;
+  display: flex;
+  border-radius: 1.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  margin-left: 24px;
+}
+.number {
+  width: 40px;
+  height: 40px;
+  --tw-border-opacity: 1;
+  border-color: rgb(55 65 81 / var(--tw-border-opacity));
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 9999px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 1px;
+}
+.under {
+  padding-left: 24px;
+  display: flex;
+  align-items: center;
+}
+.content {
+  font-size: 16px;
+  padding-left: 24px;
+  padding-bottom: 16px;
+}
