@@ -1,5 +1,6 @@
 import React from "react";
 import Dtrvl from "./Dtrvl.svg";
+import Muitendoc from "./Muitendoc.svg";
 const Header = () => {
   return (
     <div className="Header">
@@ -27,7 +28,9 @@ const Header = () => {
             <b>Settings</b>
           </li>
         </ul>
-        <p className="Connect">Connect Wallet</p>
+        <p className="Connect">
+          Connect Wallet <img className="muiten" src={Muitendoc} alt=""></img>
+        </p>
       </div>
     </div>
   );

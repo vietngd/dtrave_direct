@@ -1,30 +1,72 @@
 import React from "react";
+import Muitendoc from "./Muitendoc.svg";
+import Muitenngang from "./Muitenngang.svg";
 const Performance = () => {
   return (
-    <div className="Home">
-      <div className="left-content">
-        <div className="Getting-started">
-          <div className="Getting">
-            <p className="text-big"> Getting Started</p>
-            <p className="box">
-              <span className="dismiss"> Dismiss</span>
-            </p>
-          </div>
+    <div className="left-content">
+      <div className="Getting-started">
+        <div className="Getting">
+          <p className="text-big"> Performance</p>
+          <p className="box">
+            <span className="dismiss">Month</span>
+            <img className="arrow" src={Muitendoc} alt=""></img>
+          </p>
+        </div>
 
-          <div className="under">
-            <p className="number">1</p>
-            <span className="content">Schedule a phone call with our team</span>
+        <div className="box-group">
+          <div className="item">
+            <p className="text-item"> Page Views</p>
+            <span className="ingredient font-big"> OO</span>
+            <span className="ingredient">+0.0%</span>
           </div>
-          <div className="under">
-            <p className="number">2</p>
-            <span className="content">
-              Join the private host discord server
-            </span>
+          <div className="item">
+            <p className="text-item"> Page Views</p>
+            <span className="ingredient font-big"> OO</span>
+            <span className="ingredient">+0.0%</span>
           </div>
-          <div className="under">
-            <p className="number">3</p>
-            <span className="content">Import your listings</span>
+          <div className="item">
+            <p className="text-item"> Page Views</p>
+            <span className="ingredient font-big"> OO</span>
+            <span className="ingredient">+0.0%</span>
           </div>
+          <div className="item">
+            <p className="text-item"> Page Views</p>
+            <span className="ingredient font-big"> OO</span>
+            <span className="ingredient">+0.0%</span>
+          </div>
+        </div>
+      </div>
+      <div className="Getting-started">
+        <div className="Getting">
+          <p className="text-big"> Reservations</p>
+          <p className="box">
+            <span className="dismiss">Show all</span>
+            <img className="arrow" src={Muitenngang} alt=""></img>
+          </p>
+        </div>
+        <div>
+          <p className="final">
+            You don’t have any reservations yet. Go to Discord for help getting
+            your first booking.
+          </p>
+        </div>
+        <div className="final">
+          <button className="join">Get help in Discord</button>
+        </div>
+      </div>
+      <div className="Getting-started">
+        <div className="Getting">
+          <p className="text-big"> Listings</p>
+          <p className="box">
+            <span className="dismiss">Show all</span>
+            <img className="arrow" src={Muitenngang} alt=""></img>
+          </p>
+        </div>
+        <div>
+          <p className="final">You don’t have any listings on Dtravel yet</p>
+        </div>
+        <div className="final">
+          <button className="join">Import Listings</button>
         </div>
       </div>
     </div>
