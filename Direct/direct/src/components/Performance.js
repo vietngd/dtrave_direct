@@ -3,39 +3,38 @@ import Muitendoc from "./Muitendoc.svg";
 import Muitenngang from "./Muitenngang.svg";
 const Performance = () => {
   return (
-    <div className="left-content">
-      <div className="Getting-started">
-        <div className="Getting">
-          <p className="text-big"> Performance</p>
-          <p className="box">
-            <span className="dismiss">Month</span>
-            <img className="arrow" src={Muitendoc} alt=""></img>
-          </p>
-        </div>
+    <div className="Getting-started">
+      <div className="Getting">
+        <p className="text-big"> Performance</p>
+        <p className="box">
+          <span className="dismiss">Month</span>
+          <img className="arrow" src={Muitendoc} alt=""></img>
+        </p>
+      </div>
 
-        <div className="box-group">
-          <div className="item">
-            <p className="text-item"> Page Views</p>
-            <span className="ingredient font-big"> OO</span>
-            <span className="ingredient">+0.0%</span>
-          </div>
-          <div className="item">
-            <p className="text-item"> Page Views</p>
-            <span className="ingredient font-big"> OO</span>
-            <span className="ingredient">+0.0%</span>
-          </div>
-          <div className="item">
-            <p className="text-item"> Page Views</p>
-            <span className="ingredient font-big"> OO</span>
-            <span className="ingredient">+0.0%</span>
-          </div>
-          <div className="item">
-            <p className="text-item"> Page Views</p>
-            <span className="ingredient font-big"> OO</span>
-            <span className="ingredient">+0.0%</span>
-          </div>
+      <div className="box-group">
+        <div className="item">
+          <p className="text-item"> Page Views</p>
+          <span className="ingredient font-big"> OO</span>
+          <span className="ingredient">+0.0%</span>
+        </div>
+        <div className="item">
+          <p className="text-item"> Page Views</p>
+          <span className="ingredient font-big"> OO</span>
+          <span className="ingredient">+0.0%</span>
+        </div>
+        <div className="item">
+          <p className="text-item"> Page Views</p>
+          <span className="ingredient font-big"> OO</span>
+          <span className="ingredient">+0.0%</span>
+        </div>
+        <div className="item">
+          <p className="text-item"> Page Views</p>
+          <span className="ingredient font-big"> OO</span>
+          <span className="ingredient">+0.0%</span>
         </div>
       </div>
+
       <div className="Getting-started">
         <div className="Getting">
           <p className="text-big"> Reservations</p>
