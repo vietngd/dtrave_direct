@@ -51,6 +51,7 @@
   font-size: 24px;
   margin-bottom: 2rem;
   padding-top: 3.75rem;
+  display: flex;
 }
 .Getting {
   display: flex;
@@ -157,6 +158,7 @@
   border-radius: 0.75rem;
   -webkit-appearance: button;
   background-color: transparent;
+  white-space: nowrap;
 }
 .muiten {
   width: 16px;
@@ -179,6 +181,7 @@
   padding-right: 0.75rem;
 }
 .wrap {
+  margin-top: 24px;
   padding-left: 24px;
   padding-right: 24px;
   flex-direction: column;
@@ -216,4 +219,92 @@
   padding-left: 24px;
   padding-right: 24px;
   margin: 0px auto;
+  display: flex;
+}
+.filter {
+  margin-bottom: 2rem;
+  padding-top: 3.75rem;
+  display: flex;
+  width: 120px;
+  white-space: nowrap;
+}
+.with {
+  width: 180px;
+}
+.import {
+  border-radius: 0.75rem;
+  background-color: brown;
+  color: white;
+  margin-top: 3.75rem;
+  white-space: nowrap;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  height: 48px;
+  align-items: center;
+}
+.Listings-title {
+  margin-top: 8px;
+  display: flex;
+  border-radius: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.left {
+  gap: 3rem;
+  display: flex;
+}
+.cold {
+  display: flex;
+  margin: 0px auto;
+  justify-content: space-between;
+  padding-left: 24px;
+}
+.wrap-listing {
+  margin-top: 24px;
+  flex-direction: column;
+  border-radius: 1.5rem;
+  min-height: calc(100vh - 88px);
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 245 244 / var(--tw-bg-opacity));
+  padding: 24px;
+}
+.mount {
+  display: flex;
+  padding-left: 24px;
+  width: 50%;
+  align-items: center;
+}
+.padding {
+  margin-left: 48px;
+  margin-right: 48px;
+}
+.text-one {
+  display: flex;
+  width: 30%;
+  margin: 24px;
+  align-items: center;
+}
+.active {
+  display: flex;
+  width: 20%;
+  align-items: center;
+}
+.offical {
+  padding-left: 8px;
+}
+.green-dots {
+  --tw-bg-opacity: 1;
+  background-color: rgb(93 171 152 / var(--tw-bg-opacity));
+  border-radius: 9999px;
+  width: 0.625rem;
+  height: 0.625rem;
+  margin-right: 1rem;
+}
+.red-dots {
+  --tw-bg-opacity: 1;
+  background-color: rgb(163 42 47 / var(--tw-bg-opacity));
+  border-radius: 9999px;
+  width: 0.625rem;
+  height: 0.625rem;
+  margin-right: 1rem;
 }

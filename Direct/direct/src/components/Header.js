@@ -13,7 +13,7 @@ const Header = () => {
             <b>Home</b>
           </li>
           <li className="li ">
-            <b>Listening</b>
+            <b>Listing</b>
           </li>
           <li className="li">
             <b>Wallet</b>
