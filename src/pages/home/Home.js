@@ -7,7 +7,7 @@ const Home = () => {
   const gotoHome = () => {
     navigate("/home");
   };
-  return <div onClick={gotoHome}>default</div>;
+  return <div onClick={gotoHome}>Home page</div>;
 };
 
 export default Home;
