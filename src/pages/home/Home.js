@@ -1,18 +1,13 @@
-import React from 'react'
-import './Home.scss'
-import { useNavigate } from 'react-router-dom'
+import React from "react";
+import "./Home.scss";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
-  const navigate = useNavigate()
-  const gotoSetting = () => {
-    navigate('/setting')
-  }
-  return (
-    <div className="homeContainer">
-      <p className="home-title">Home</p>
-      <button onClick={gotoSetting}>go to setting</button>
-    </div>
-  )
-}
+  const navigate = useNavigate();
+  const gotoHome = () => {
+    navigate("/home");
+  };
+  return <div onClick={gotoHome}>default</div>;
+};
 
-export default Home
+export default Home;
