@@ -1,1 +1,119 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.title {
+  font-size: 24px;
+  display: flex;
+}
+.size {
+  font-size: 16px;
+  padding-left: 24px;
+}
+.stop {
+  display: flex;
+  padding-left: 48px;
+  padding-top: 24px;
+}
+.w-full {
+  flex-direction: column;
+  width: 100%;
+  border-radius: 16px;
+  background-color: white;
+}
+.getting {
+  border-radius: 1rem;
+  background-color: white;
+  margin-right: 3rem;
+}
+.month {
+  display: flex;
+  padding: 24px;
+  padding-top: 30px;
+  font-size: 16px;
+}
+.ic-reserved {
+  display: flex;
+  justify-content: space-between;
+}
+.ic-box {
+  display: flex;
+  margin-bottom: 24px;
+}
+.boxgroup {
+  width: 50%;
+  border-radius: 1rem;
+  flex-direction: column;
+  background-color: rgb(233, 206, 233);
+  margin-left: 24px;
+}
+.boxgroup-green {
+  width: 50%;
+  border-radius: 1rem;
+  flex-direction: column;
+  background-color: rgb(196, 247, 244);
+  margin-left: 8px;
+  margin-right: 24px;
+}
+.pink {
+  margin-left: 8px;
+}
+.page {
+  margin-left: 24px;
+}
+.zero {
+  font-size: 24px;
+  height: 1px;
+}
+.reservations {
+  margin-top: 24px;
+  display: flex;
+  width: 100%;
+}
+.column {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+.left-column {
+  display: flex;
+  font-size: 24px;
+  white-space: nowrap;
+}
+.join {
+  border-radius: 0.5rem;
+  padding: 12px;
+  margin-left: 24px;
+  margin-bottom: 12px;
+  border-width: 1px;
+  background-color: white;
+}
+.right-home{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-top: 24px;
 
+}
+.paper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  
+}
+.spaces{
+  display: flex;
+  padding: 48px;
+}
+.left-spaces{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.compiled{
+  border-radius: 1rem;
+  background-color: white;
+  margin-left: 12px;
+}
