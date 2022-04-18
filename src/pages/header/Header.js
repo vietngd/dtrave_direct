@@ -3,15 +3,16 @@ import "./Header.scss";
 import { useNavigate } from "react-router-dom";
 import Logodtravel from "./Logodtravel.svg";
 const menu = [
-  { name: "HOME", url: "/" },
-  { name: "LISTINGS", url: "/listing" },
-  { name: "RESERVATIONS", url: "/reservations" },
+  { name: "HOME", link: "/" },
+  { name: "LISTINGS", link: "/listing" },
+  { name: "RESERVATIONS", link: "/reservations" },
 ];
 const Header = () => {
   const navigate = useNavigate();
   const gotoHome = (url) => {
-    navigate(url);
+    navigate(url); // chuyen link
   };
+
 
   return (
     <div className="headerContainer">
@@ -19,7 +20,10 @@ const Header = () => {
       <ul>
         {menu.map((el, idx) => {
           return (
-            <li className="headerItem" onClick={() => gotoHome(el.url)}>
+            <li className="headerItem" onClick={() => {
+              console.log('clicked item: ', el)
+              gotoHome(el.link)
+            }}>
               {el.name}
             </li>
           );
