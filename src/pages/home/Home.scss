@@ -93,7 +93,6 @@
   display: flex;
   flex-direction: column;
   width: 30%;
-  padding-top: 24px;
 
 }
 .paper{
@@ -109,11 +108,45 @@
 }
 .left-spaces{
   display: flex;
-  width: 100%;
+  width: 70%;
   flex-direction: column;
 }
 .compiled{
+  display: flex;
+  justify-content: space-between;
+}
+.wallet{
+  display: flex;
+  padding-top: 14px ;
+ 
+}
+.dismiss{
+  flex-direction: column;
   border-radius: 1rem;
   background-color: white;
-  margin-left: 12px;
+  margin-left: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.conected{
+ padding-bottom: 24px;
+}
+.USD{
+  display: flex;
+  padding-top: 14px ;
+  justify-content: space-between;
+  border-bottom: solid 1px rgb(179, 176, 176);
+}
+.usdc{
+  width: 13%;
+  padding-bottom: 24px;
+}
+.text-under{
+  padding-left: 12px;
+}
+.network{
+  padding-left: 12px;
 }
